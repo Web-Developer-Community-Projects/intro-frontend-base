@@ -10,7 +10,7 @@ export function Avatar({imgUrl,fallback = "Avatar Perfil"}: AvatarProps) {
   $avatar.alt = fallback;
 
 
-  // TODO: Crear funcionalidad de aparecer iniciales de fallback en caso de no tener imagen
+  // TODO: Crear funcionalidad de aparecer iniciales de fallback en caso de que la url de imagen esté mal refenciada
 
   return $avatar;
 }
