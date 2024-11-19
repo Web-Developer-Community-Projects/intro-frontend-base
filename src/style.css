@@ -139,7 +139,7 @@ a{
 }
 
 
-/* Escritorio */
+/* Escritorio desde 1024px hacia arriba */
 @media screen and (min-width: 1024px) {
   .full-lg-screen {
     width: 100%;
