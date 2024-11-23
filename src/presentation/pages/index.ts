@@ -5,3 +5,5 @@ export * from "./JonatanPage";
 export * from "./JustinPage";
 export * from "./LautaroPage";
 export * from "./MiguelPage";
+export * from "./JovanyPage";
+
