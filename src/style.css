@@ -109,7 +109,6 @@ a{
 
 .full-screen {
   width: 100%;
-  min-height: calc(100vh - 86.4px);
 }
 
 .section {

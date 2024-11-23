@@ -1,4 +1,4 @@
-import { BryanPage, DiegoPage, HomePage, JonatanPage, JustinPage, LautaroPage, MiguelPage } from "../pages";
+import { BryanPage, DiegoPage, HomePage, JonatanPage, JovanyPage, JustinPage, LautaroPage, MiguelPage } from "../pages";
 
 
 export function Router(){
@@ -32,6 +32,10 @@ export function Router(){
 
   if (hash === "#/miguel") {
     $main.appendChild(MiguelPage());
+  }
+  
+  if(hash === "#/jovany"){
+     $main.appendChild(JovanyPage());
   }
 
 
