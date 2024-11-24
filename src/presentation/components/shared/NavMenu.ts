@@ -32,6 +32,11 @@ const menuOptions = [
     url: "#/jovany",
 
   },
+  {
+    name: "Johel",
+    url: "#/johel",
+
+  },
 ];
 
 export function NavMenu() {
