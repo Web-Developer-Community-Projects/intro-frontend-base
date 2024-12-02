@@ -22,23 +22,22 @@ Y que además, se detallarán más en el siguiente canal de youtube: [addev](htt
 ___
 
 ### **Tarea 1:** crear fallback a componente Avatar existente.
-- Ver más detalles de tarea en el siguiente video en el minuto minuto **_1:30:53_**: [Base para Aprender React con Clean Architecture: Frontend con HTML, CSS y TypeScript: (Parte 1)](https://youtu.be/TNFrjhVi7uo?si=kfVjQPrR8kZqTwlD) (Desde ese minuto se crea el componente avatar y se explica la tarea, además en la descripción podrás ver un índice temático para más exactitud).
+- Ver más detalles de tarea en el siguiente video en el minuto **_1:30:53_**: [Base para Aprender React con Clean Architecture: Frontend con HTML, CSS y TypeScript: (Parte 1)](https://youtu.be/TNFrjhVi7uo?si=kfVjQPrR8kZqTwlD) (Desde ese minuto se crea el componente avatar y se explica la tarea, además en la descripción podrás ver un índice temático para más exactitud).
 
 - Debes agregar funcionalidad adicional de fallback al componente avatar de la carpeta `/presentation/components/shared`. A continuación los detalles: 
 
-
   1. #### La tarea es que en el componente `Avatar.ts` agregues la funcionalidad para que se agreguen las iniciales de las palabras especificadas en la propiedad *_"fallback"_* si se referencia mal la URL de la propiedad *_"urlImg"_* para agregar una imagen.
-    - ##### Código actual que se debe extender con más código pero no modificar el existente:
-    ![Paso 1.1](./public/images/tarea1-paso1_1.png)
+      - ##### Código actual que se debe extender con más código pero no modificar el existente:
+      ![Paso 1.1](./public/images/tarea1-paso1_1.png)
 
-    - ##### Como se ve actualmente el avatar si se pasa las props `imgUrl` con una url de imagen bien referenciada y el `fallback`:
-    ![Paso 1.2](./public/images/tarea1-paso1_2.png)
+      - ##### Como se ve actualmente el avatar si se pasa las props `imgUrl` con una url de imagen bien referenciada y el `fallback`:
+      ![Paso 1.2](./public/images/tarea1-paso1_2.png)
 
-    - ##### Como debe verse el avatar si se pasa las props `imgUrl` con una url de imagen mal referenciada y un `fallback` al realizar la tarea (tomaremos como ejemplo el fallback _"Moises Prado"_ para que las iniciales que se muestren sean _"MP"_):
-    ![Paso 1.3](./public/images/tarea1-paso1_3.png)
+      - ##### Como debe verse el avatar si se pasa las props `imgUrl` con una url de imagen mal referenciada y un `fallback` al realizar la tarea (tomaremos como ejemplo el fallback _"Moises Prado"_ para que las iniciales que se muestren sean _"MP"_):
+      ![Paso 1.3](./public/images/tarea1-paso1_3.png)
 
-    - ##### Como se ve actualmente el avatar si se pasa las props `imgUrl` con una url de imagen mal referenciada y el `fallback` sin las funcionalidad de las iniciales:
-    ![Paso 1.4](./public/images/tarea1-paso1_4.png)
+      - ##### Como se ve actualmente el avatar si se pasa las props `imgUrl` con una url de imagen mal referenciada y el `fallback` sin las funcionalidad de las iniciales:
+      ![Paso 1.4](./public/images/tarea1-paso1_4.png)
 
 ___
 
