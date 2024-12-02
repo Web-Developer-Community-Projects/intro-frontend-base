@@ -1,4 +1,4 @@
-{<h1 style="text-align: center;">
+<h1 style="text-align: center;">
   Intro al frontend para react creando una SPA con <em>HTML, CSS, JS, TS y NodeJS</em> basado en Clean Architecture.
   <br>
   💻📂📖🗒️💻
@@ -47,20 +47,17 @@ ___
 ___
 
   3. #### Cada participante del desafio tiene una página (o tiene que crearla en `/presentation/pages` y registrarla en el `/router/router.ts`) para poder llamar a su componente `Avatar.ts` y tener su propio espacio de trabajo (tambien para otras tareas futuras).
-     - ##### Para registrar las páginas tienes que agregar un `if` y agregar la página agregada como se ve a continuación en el `router.ts` con tu propio nombre (que no exista ya registrado):
-    ![Paso 1.1](./public/images/tarea1-paso3_1.png)
+      - ##### Para registrar las páginas tienes que agregar un `if` y agregar la página agregada como se ve a continuación en el `router.ts` con tu propio nombre (que no exista ya registrado):
+      ![Paso 3.1](./public/images/tarea1-paso3_1.png)
 
-     - ##### Ejemplo de como crear tu propia página (El archivo debe tener la siguinte nomenclatura `NombrePage.tsx` al igual que el nombre del componente de página).
-    ![Paso 1.2](./public/images/tarea1-paso3_2.png)
+      - ##### Ejemplo de como crear tu propia página (El archivo debe tener la siguinte nomenclatura `NombrePage.tsx` al igual que el nombre del componente de página).
+      ![Paso 3.2](./public/images/tarea1-paso3_2.png)
 
-     - ##### Por último debes agregar al componente `NavMenu.ts` en el arreglo de objetos `menuOptions.ts` tu nombre y ruta de página que registraste en el `router.ts` como se ve a continuación:
-    ![Paso 1.3](./public/images/tarea1-paso3_3.png)
+      - ##### Por último debes agregar al componente `NavMenu.ts` en el arreglo de objetos `menuOptions.ts` tu nombre y ruta de página que registraste en el `router.ts` como se ve a continuación:
+      ![Paso 3.3](./public/images/tarea1-paso3_3.png)
 
 ___    
 
   4. #### Pueden llamar a cualquier url de imagen que agreguen a `/public` o que esté en internet.
 
 
-
-
-}
