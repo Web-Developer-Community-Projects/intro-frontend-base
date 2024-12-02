@@ -13,7 +13,7 @@ Además se agregan blogs útiles que complementan la clase (ver estos en [Blogs 
 Por último mencionar que estás tareas se plantean en reuniones grabadas de discord que posteriomente se suben a youtube.
 
 
-## Tareas de SPA con Typescript y Frontend basado en Clean Architecture:
+## 📖 Tareas de SPA con Typescript y Frontend basado en Clean Architecture 📖
 A continuación se especificarán todas las tareas a realizar que se harán en esta introducción de
 _Frontend_ para _React_. 
 
@@ -21,7 +21,7 @@ Y que además, se detallarán más en el siguiente canal de youtube: [addev](htt
 
 ___
 
-### **Tarea 1:** crear fallback a componente Avatar existente.
+### ⌨️ **Tarea 1:** crear fallback con iniciales de usuario a componente Avatar existente. ⌨️
 - Ver más detalles de tarea en el siguiente video en el minuto **_1:30:53_**: [Base para Aprender React con Clean Architecture: Frontend con HTML, CSS y TypeScript: (Parte 1)](https://youtu.be/TNFrjhVi7uo?si=kfVjQPrR8kZqTwlD) (Desde ese minuto se crea el componente avatar y se explica la tarea, además en la descripción podrás ver un índice temático para más exactitud).
 
 - Debes agregar funcionalidad adicional de fallback al componente avatar de la carpeta `/presentation/components/shared`. A continuación los detalles: 
@@ -49,10 +49,10 @@ ___
     - ##### Para registrar las páginas tienes que agregar un `if` y agregar la página agregada como se ve a continuación en el `router.ts` con tu propio nombre (que no exista ya registrado):
     ![Paso 3.1](./public/images/tarea1-paso3_1.png)
 
-    - ##### Ejemplo de como crear tu propia página (El archivo debe tener la siguinte nomenclatura `NombrePage.tsx` al igual que el nombre del componente de página).
+    - ##### Ejemplo de como crear tu propia página (El archivo debe tener la siguinte nomenclatura `NombrePage.ts` al igual que el nombre del componente de página).
     ![Paso 3.2](./public/images/tarea1-paso3_2.png)
 
-    - ##### Por último debes agregar al componente `NavMenu.ts` en el arreglo de objetos `menuOptions.ts` tu nombre y ruta de página que registraste en el `router.ts` como se ve a continuación:
+    - ##### Por último debes agregar al componente `NavMenu.ts` en el arreglo de objetos **`menuOptions`** tu nombre y ruta de página que registraste en el `router.ts` como se ve a continuación:
     ![Paso 3.3](./public/images/tarea1-paso3_3.png)
 
 ___    
