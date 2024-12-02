@@ -8,7 +8,7 @@ export function Main() {
 
   const $main = document.createElement('main'); // <main>
   $main.id = 'main';
-   $main.classList.add("main", "container", "full-screen");
+  $main.classList.add("main", "container", "full-screen");
 
   return $main;
 }

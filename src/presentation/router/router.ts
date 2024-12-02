@@ -1,13 +1,20 @@
-import { BryanPage, DiegoPage, HomePage, JonatanPage, JustinPage, LautaroPage, MiguelPage } from "../pages";
+import {
+  BryanPage,
+  DiegoPage,
+  HomePage,
+  JonatanPage,
+  JustinPage,
+  LautaroPage,
+  MiguelPage,
+} from "../pages";
 
-
-export function Router(){
+export function Router() {
   const $main = document.querySelector<HTMLElement>("#main")!;
-  
+
   const { hash } = location;
 
-  if (!hash || hash === '#/') {
-   $main?.appendChild(HomePage());
+  if (!hash || hash === "#/") {
+    $main?.appendChild(HomePage());
   }
 
   if (hash === "#/bryan") {
@@ -33,6 +40,4 @@ export function Router(){
   if (hash === "#/miguel") {
     $main.appendChild(MiguelPage());
   }
-
-
 }

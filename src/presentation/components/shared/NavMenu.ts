@@ -40,13 +40,11 @@ export function NavMenu() {
       padding: 1rem;
       background-color: var(--second-color);
     }
-
     .nav-menu a {
       border-bottom: 4px solid transparent;
       color: var(--white-color);
       transition: border-bottom 0.3s;
     }
-
     .nav-menu a:hover {
       border-bottom: 4px solid white;
     }
@@ -65,7 +63,6 @@ export function NavMenu() {
   });
 
   $navMenu.innerHTML = html;
-
 
   return $navMenu;
 }
