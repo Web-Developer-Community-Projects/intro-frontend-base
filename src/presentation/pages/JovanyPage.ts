@@ -8,7 +8,7 @@ export function JovanyPage(){
     `;
   
     const avatar = Avatar({
-        imgUrl: "/avatarcr7.png",
+        imgUrl: "/avatacr7.png",
         fallback: "Jovany fuasdt" 
       });
       $containerJovany.appendChild(avatar);
