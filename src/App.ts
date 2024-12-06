@@ -4,7 +4,7 @@ import { Router } from "./presentation/router/router";
 
 export function App(){
   const $app = document.querySelector<HTMLDivElement>("#app")!;
-  console.log($app);
+  
 
   $app.innerHTML = "";
   
@@ -15,5 +15,5 @@ export function App(){
   Router();
 
 
-  console.log("Raiz de la app que ejecuta todos los componentes");
+  
 }
